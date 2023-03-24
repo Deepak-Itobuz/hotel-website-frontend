@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+<body>
+    <section class="header d-flex flex-column flex-sm-row justify-content-between py-1 px-2 align-items-center">
+        <nav class="navbar navbar-expand-lg w-100 ">
+            <a href="#" class="text-decoration-none text-black">
+                <h3>MIKALTO</h4>
+                <p>HOTELS & RESORTS</p>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse d-flex justify-content-around" id="navbarSupportedContent">
+                <ul class=" d-flex flex-column flex-sm-row list-unstyled gap-3 w-75 justify-content-center ">
+                    <li>Home</li>
+                    <li>Our Rooms</li>
+                    <li>Page</li>
+                    <li>Features</li>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                </ul>
+        
+                <div class="d-flex gap-3">
+                    <select name="language" id="">
+                        <option value="english">EN</option>
+                        <option value="french">FR</option>
+                        <option value="spanish">SP</option>
+                    </select>
+                    <i class="fas fa-light fa-bag-shopping"></i>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <section class="banner d-flex row justify-content-around">
+        <div class="col-3 d-flex flex-column   justify-content-center text-white">
+            <h1>Enjoy your dream vacation</h1>
+            <p>Quiet and endlessly beautiful hideaway</p>
+            <div class="d-flex flex-column flex-sm-row gap-5">
+                <button class="px-4 py-2">About Us</button>
+            <a href="#" class="text-decoration-none text-white">View HomeStay</a>
+            </div>
+        </div>
+        <form action="" class="offset-3 col-3 d-flex flex-column   bg-white mx-5 my-3 px-5 py-5 my-5">
+            <h1>Search Room</h1>
+            <p >Get the latest on our COVID-19 response</p>
+          <div class="date d-flex my-2">
+            <div class="form-group">
+                <label for="Check-in">Checkin*</label>
+                <input id="dp1" type="date" class="form-control clickable input-md" id="DtChkIn" placeholder="&#xf133;  Check-In-Date">
+              </div>
+              <div class="form-group">
+                <label for="Check-in">Checkout*</label>
+                <input id="dp2" type="date" class="form-control clickable input-md" id="DtChkOut" placeholder="&#xf133;  Check-Out-Date">
+              </div>
+          </div> 
+          <div class="form-group py-2">
+            <label for="adults" class="d-block py-1">Adult</label>
+            <select name="guest" id="" class="w-100 border-0">
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+                <option value="">6</option>
+             
+                
+            </select>
+            <hr>
+          </div>
+          <div class="form-group py-2" >
+            <label for="children" class="d-block py-1">Children</label>
+            <select name="children" id="" class="w-100 border-0 ">
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+                <option value="">6</option>
+                
+            </select>
+            <hr>
+        </div>
+        <button class="w-100 text-white py-2" style="background-color: #0a205c;">Check availability</button>
+
+        </form>
+
+    </section>
+    <section class="hotel-manager row mt-5 mb-5">
+        <div class="manager-details offset-1 col-4 d-flex flex-column justify-content-center">
+            <p>WELCOME TO</p>
+            <h2>The Mikalto Luxury & Comfort Homestay</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, sit pariatur ad voluptates voluptatem amet saepe fugit. </p>
+            <img src="./images/signature.png" alt="signature" class=" p-5 w-50 text-black">
+            <p>MELINDA AMANDA - HOTEL MANAGER</p>
+
+        </div>
+
+        <div class="offset-1 col-6 collage">
+            <img src="./images/hotel-manager-entrance.png" alt="">
+            <!-- <img src="" alt="">
+            <img src="" alt=""> -->
+        </div>
+
+    </section>
+    <section class="book-your-stay">
+        <div class="row">
+            <div class="col-6 d-flex flex-column justify-content-center align-items-center">
+                <div class="m-5 col-8">
+                    <p>OTHER ACTIVITIES</p>
+                <h2>Give yourself a smile- Smile & Wellness</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, fugiat. Animi accusantium officiis aspernatur eos ipsum non nisi corrupti</p>
+                <a href="">Explore more</a>
+                </div>
+            </div>
+            <div class="col-6">
+                <img src="./images/swimming-pool.png" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <img src="./images/tree-house.png" class="w-100" alt="">
+            </div>
+            <div class="col-6 d-flex flex-column justify-content-center align-items-center">
+                <div class="m-5 col-8">
+
+                <p>RECONNECT WITH NATURE</p>
+                <h2>Experience a truly unforgettable holiday</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, fugiat. Animi accusantium officiis aspernatur eos ipsum non nisi corrupti</p>
+                <ul>
+                    <li>Thermal water with asian baths</li>
+                    <li>Turkish bath</li>
+                    <li>Turkish sauna</li>
+                    <li>Relax and therapy massage</li>
+                </ul>
+                <a href="">Book your stay</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="slider">
+        <div></div>
+        <div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide d-flex">
+                    Slide 1
+                <div class="room-details">
+                    <p>ELEGANCE AND COMFORT</p>
+                    <h2>Standard Room</h2>
+                    <p>Details</p>
+                </div>
+                <div class="room-image">
+
+                </div>
+                </div>
+                  <div class="swiper-slide">Slide 2
+                    <div class="room-details">
+                        <p>ELEGANCE AND COMFORT</p>
+                        <h2>Standard Room</h2>
+                        <p>Details</p>
+                    </div>
+                    <div class="room-image">
+                  </div>
+                  <div class="swiper-slide">Slide 3
+                    <div class="room-details">
+                        <p>ELEGANCE AND COMFORT</p>
+                        <h2>Standard Room</h2>
+                        <p>Details</p>
+                    </div>
+                    <div class="room-image">
+                  </div>
+                </div>
+                  <div class="swiper-slide">Slide 4</div>
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+            
+        </div>
+
+    </section>
+
+    <section class="services-section d-flex flex-column  align-items-center my-5">
+        <p>EXPERIENCE MATTERS</p>
+        <h3 class="col-5 text-center">Escape from the world to see the experience before you feel it. Discover the luxury of Hotel Mikalto</h3>
+        <div class="services">
+            <div class="d-flex">
+
+            </div>
+
+        </div>
+        <button>View all services</button>
+    </section>
+
+    <section class="choose-hostel my-5">
+        <h1>Why choose our hostel?</h1>
+       <div class="d-flex row justify-content-between">
+        <div class="col-3 d-flex">
+            <img src="" alt="">
+            <div>
+                <h5>Unique quisine</h5>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione ab odit nisi dolor, </p>
+            </div>
+        </div>
+        <div class="col-3 d-flex">
+            <img src="" alt="">
+            <div>
+                <h5>Unique quisine</h5>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione ab odit nisi dolor, </p>
+            </div>
+        </div>
+        <div class="col-3 d-flex">
+            <img src="" alt="">
+            <div>
+                <h5>Unique quisine</h5>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione ab odit nisi dolor, </p>
+            </div>
+        </div>
+       </div>
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
