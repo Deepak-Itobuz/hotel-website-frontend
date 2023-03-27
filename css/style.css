@@ -4,7 +4,9 @@ body{
 
 .banner{
     /* height: 400px; */
-    background: url('../images/banner-img.png')
+    background: url('../images/banner-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -28,4 +30,14 @@ body{
       width: 100%;
       height: 100%;
       object-fit: cover;
+    }
+
+    .say-hello {
+      background-image: url("../images/woman-swimming.png");
+      background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    .image-collage {
+      margin-top: -3rem;
     }
