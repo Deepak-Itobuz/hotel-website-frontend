@@ -11,3 +11,18 @@ var swiper = new Swiper(".mySwiper", {
       prevEl: ".swiper-button-prev",
     },
   });
+
+
+   async function getData(){
+    const response = await fetch("http://127.0.0.1:8081/" ).then((data)=> {return data.json()})
+    console.log(response);
+
+    for(let i=0; i<response.obj.length;i++){
+      console.log(response.obj[i]);
+    }
+
+  }
+
+getData();
+
+  
