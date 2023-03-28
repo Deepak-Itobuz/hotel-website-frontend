@@ -3,8 +3,7 @@ body{
 }
 
 .banner{
-    /* height: 400px; */
-    background: url('../images/banner-img.png');
+    /* background: url('../images/banner-section/banner-img.png'); */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -41,3 +40,34 @@ body{
     .image-collage {
       margin-top: -3rem;
     }
+
+
+    .footer a {
+      text-decoration: none;
+      color: #b3a9a9;
+
+    }
+
+    .footer a:hover{
+      text-decoration: underline;
+      color: white;
+    }
+
+    .btn-property {
+      background-color: #0a205c;
+     
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 1mm;
+      border: transparent;
+    }
+
+    .btn-property-white {
+
+     background-color: #fff;
+      color: #0a205c;
+      padding: 0.5rem 1rem;
+     
+      border:#0a205c 2px solid; 
+    }
+
