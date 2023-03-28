@@ -27,7 +27,6 @@ getServiceData();
 
 async function getBannerData() {
   const bannerData = await fetch("http://127.0.0.1:8081/banner").then((data) => { return data.json() })
-  console.log(bannerData.bannerObj.imageUrl);
   document.querySelector('.banner').style.backgroundImage = `url(${bannerData.bannerObj.imageUrl})`
   document.querySelector('.banner-title').textContent = `${bannerData.bannerObj.bannerHeading}`
   document.querySelector('.banner-subtitle').textContent = `${bannerData.bannerObj.bannerContent}`
@@ -37,15 +36,15 @@ getBannerData();
 
 async function getCarouselData() {
   const carouselData = await fetch("http://127.0.0.1:8081/carousel").then((data) => { return data.json() })
-  console.log(carouselData);
+  // console.log(carouselData);
   // document.querySelector('.banner').style.backgroundImage=`url(${bannerData.bannerObj.imageUrl})`
 }
 
 getCarouselData();
 
 async function bookStay() {
-  const carouselData = await fetch("http://127.0.0.1:8081/bookHotel").then((data) => { return data.json() })
-  console.log(carouselData);
+  const bookData = await fetch("http://127.0.0.1:8081/bookHotel").then((data) => { return data.json() })
+  // console.log(bookData);
   // document.querySelector('.banner').style.backgroundImage=`url(${bannerData.bannerObj.imageUrl})`
 }
 
