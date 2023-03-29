@@ -1,73 +1,112 @@
-body{
-
+body {
+  padding-left: 15px;
+padding-right: 15px;
 }
 
-.banner{
-    /* background: url('../images/banner-section/banner-img.png'); */
-    background-repeat: no-repeat;
-    background-size: cover;
+* {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.banner {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.swiper {
+  width: 100%;
+  height: 100%;
+}
 
-    .swiper {
-      width: 100%;
-      height: 100%;
-    }
+.swiper-wrapper {
+  width: 100%;
+}
 
-    .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      background: #fff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-    .swiper-slide img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
 
-    .say-hello {
-      background-image: url("../images/woman-swimming.png");
-      background-repeat: no-repeat;
-    background-size: cover;
-    }
+.swiper-button-prev {
+ color: white;
+}
 
-    .image-collage {
-      margin-top: -3rem;
-    }
+:root {
+  --swiper-theme-color:white !important;
+}
 
+.swiper-button-next {
+ color: white;
+} 
+.swiper-button-next:after, .swiper-button-prev:after {
+  content: ""!important;
+}
 
-    .footer a {
-      text-decoration: none;
-      color: #b3a9a9;
+.say-hello {
+  background-image: url("../images/woman-swimming.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-    }
+.image-collage {
+  margin-top: -3rem;
+}
 
-    .footer a:hover{
-      text-decoration: underline;
-      color: white;
-    }
+.footer a {
+  text-decoration: none;
+  color: #b3a9a9;
+}
 
-    .btn-property {
-      background-color: #0a205c;
-     
-      color: white;
-      padding: 0.5rem 1rem;
-      border-radius: 1mm;
-      border: transparent;
-    }
+.footer a:hover {
+  text-decoration: underline;
+  color: white;
+}
 
-    .btn-property-white {
+.bg-deep-blue {
+  background-color: #0a205c;
+  color: white;
+}
 
-     background-color: #fff;
-      color: #0a205c;
-      padding: 0.5rem 1rem;
-     
-      border:#0a205c 2px solid; 
-    }
+.btn-property {
+  background-color: #0a205c;
 
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 1mm;
+  border: transparent;
+}
+
+.btn-property-white {
+  background-color: #fff;
+  color: #0a205c;
+  padding: 0.5rem 1rem;
+
+  border: #0a205c 2px solid;
+}
+
+.bg-creme {
+  background-color: #f9f6ee;
+}
+
+.book-your-stay img {
+  height: 1em;
+}
+
+.hide {
+  display: none;
+}
+
+.bg-color-rating {
+  background-color: rgb(8, 90, 28);
+  padding: 0.4em;
+}
