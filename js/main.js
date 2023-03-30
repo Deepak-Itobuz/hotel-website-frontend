@@ -13,7 +13,7 @@ const menuList = document.querySelector(".menu-list");
 const otherOptions = document.querySelector(".other-options");
 
 
-menuBtn.onclick = () =>{
+menuBtn.onclick = () => {
   menuList.classList.toggle('d-none');
   otherOptions.classList.toggle('d-none');
 }
@@ -121,18 +121,6 @@ function changeCarousel(data) {
     roomData[num].classList.remove("hide");
   }
 }
-
-async function bookStay() {
-  const bookData = await fetch("http://127.0.0.1:8081/bookHotel").then(
-    (data) => {
-      return data.json();
-    }
-  );
-  console.log(bookData);
-  // document.querySelector('.banner').style.backgroundImage=`url(${bannerData.bannerObj.imageUrl})`
-}
-
-bookStay();
 
 async function postFormData(data) {
   const response = await fetch("http://127.0.0.1:8081/", {
