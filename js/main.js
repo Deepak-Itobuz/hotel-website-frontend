@@ -8,6 +8,15 @@ const swiperImg = document.querySelectorAll(".swiper-wrapper img");
 const roomData = document.querySelectorAll(".room-details");
 const swiperNext = document.querySelector(".swiper-button-next");
 const swiperPrev = document.querySelector(".swiper-button-prev");
+const menuBtn = document.querySelector(".menu-button");
+const menuList = document.querySelector(".menu-list");
+const otherOptions = document.querySelector(".other-options");
+
+
+menuBtn.onclick = () =>{
+  menuList.classList.toggle('d-none');
+  otherOptions.classList.toggle('d-none');
+}
 
 // console.log(roomData.querySelector('.room-sub-heading'));
 

@@ -82,7 +82,7 @@ padding-right: 15px;
 
   color: white;
   padding: 0.5rem 1rem;
-  border-radius: 1mm;
+  
   border: transparent;
 }
 
@@ -92,6 +92,10 @@ padding-right: 15px;
   padding: 0.5rem 1rem;
 
   border: #0a205c 2px solid;
+}
+
+.bg-wheat {
+  background-color: rgb(244,235,224);
 }
 
 .bg-creme {
@@ -109,4 +113,13 @@ padding-right: 15px;
 .bg-color-rating {
   background-color: rgb(8, 90, 28);
   padding: 0.4em;
+}
+
+
+ button:hover {
+  box-shadow: 2px 2px 6px black;
+} 
+
+a:hover {
+  text-shadow: 1px 1px 2px;
 }
